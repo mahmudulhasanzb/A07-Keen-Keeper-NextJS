@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arafat.rahman@gmail.com",
+    "days_since_contact": 20,
+    "status": "Overdue",
+    "tags": ["UNIVERSITY", "CLOSE FRIEND"],
+    "bio": "We studied Computer Science together at university. Used to work on coding projects and late-night assignments.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 10,
+    "status": "Almost Due",
+    "tags": ["SCHOOL", "BEST FRIEND"],
+    "bio": "My school best friend. We still share everything from life updates to random memes.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "tanvir.hasan@outlook.com",
+    "days_since_contact": 5,
+    "status": "On-track",
+    "tags": ["OFFICE", "GYM BUDDY"],
+    "bio": "Colleague and gym partner. We motivate each other to stay consistent with fitness.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 4,
+    "name": "Farhana Kabir",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "farhana.kabir@gmail.com",
+    "days_since_contact": 16,
+    "status": "Overdue",
+    "tags": ["NEIGHBOR", "FAMILY FRIEND"],
+    "bio": "Grew up in the same neighborhood. Our families are very close and celebrate festivals together.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "name": "Imran Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/21.jpg",
+    "email": "imran.hossain@gmail.com",
+    "days_since_contact": 13,
+    "status": "Almost Due",
+    "tags": ["FREELANCE", "DEVELOPER"],
+    "bio": "Met through freelancing projects. We often discuss web development trends and client work.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 6,
+    "name": "Sadia Afrin",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sadia.afrin@gmail.com",
+    "days_since_contact": 3,
+    "status": "On-track",
+    "tags": ["COUSIN", "TRAVEL"],
+    "bio": "My cousin and travel partner. We've explored several places in Bangladesh together.",
+    "goal": 14,
+    "next_due_date": "2026-04-26"
+  },
+  {
+    "id": 7,
+    "name": "Rakib Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "rakib.chowdhury@yahoo.com",
+    "days_since_contact": 18,
+    "status": "Overdue",
+    "tags": ["STARTUP", "MENTOR"],
+    "bio": "Senior from university who guided me in my early career and helped me understand startups.",
+    "goal": 14,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 8,
+    "name": "Mithila Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/30.jpg",
+    "email": "mithila.sultana@gmail.com",
+    "days_since_contact": 8,
+    "status": "On-track",
+    "tags": ["BOOK CLUB", "CREATIVE"],
+    "bio": "Friend from a local book club. We discuss novels, writing, and creative ideas regularly.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 9,
+    "name": "Shakil Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/40.jpg",
+    "email": "shakil.ahmed@gmail.com",
+    "days_since_contact": 15,
+    "status": "Overdue",
+    "tags": ["CRICKET", "CHILDHOOD FRIEND"],
+    "bio": "We grew up playing cricket together in our neighborhood field. Still catch up during big matches.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 10,
+    "name": "Tasnia Rahim",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "tasnia.rahim@gmail.com",
+    "days_since_contact": 7,
+    "status": "On-track",
+    "tags": ["DESIGN", "CREATIVE TEAM"],
+    "bio": "Worked together on UI/UX design projects. She has a great eye for modern design trends.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  }
+]

@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-[#244D3F] text-primary-content p-10">
-      <div className="max-w-5xl mx-auto footer footer-horizontal footer-center mb-8 border-b">
+      <div className="max-w-6xl mx-auto footer footer-horizontal footer-center mb-8 border-b">
         <aside >
-          <p className="text-5xl font-bold p-2">
+          <p className="text-6xl font-bold p-2">
             Keen<span className='font-semibold'>Keeper</span>
           </p>
           <p >
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </nav>
       </div>
-      <div className=" max-w-5xl mx-auto flex justify-between ">
+      <div className=" max-w-6xl mx-auto flex justify-between ">
         <aside>
           <p>© {new Date().getFullYear()} KeenKeeper - All right reserved</p>
         </aside>
