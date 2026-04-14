@@ -4,14 +4,14 @@ import React from 'react';
 const NavbarPage = () => {
   const MyNavLinks = (
     <>
-      <Link href="/">Home</Link>
-      <Link href="/timeline">Timeline</Link>
-      <Link href="/stats">Stats</Link>
+      <Link href="/" className="btn bg-[#244D3F] text-white">Home</Link>
+      <Link href="/timeline" className="btn btn-ghost">Timeline</Link>
+      <Link href="/stats" className="btn btn-ghost">Stats</Link>
     </>
   );
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm lg:px-10 px-0">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,9 +38,8 @@ const NavbarPage = () => {
             {MyNavLinks}
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl">
-          <span>Keen</span>
-          <span className="text-green-500">Keeper</span>
+        <Link href="/" className=" text-2xl font-bold ">
+          Keen<span className="text-[#244D3F] font-semibold">Keeper</span>
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
