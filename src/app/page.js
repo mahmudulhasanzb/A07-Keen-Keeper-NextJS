@@ -1,5 +1,6 @@
 import FriendsCard from '@/components/FriendsCard/FriendsCard';
 import Image from 'next/image';
+import { FaPlus } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
               Your personal shelf of meaningful connections. Browse, tend, and
               nature the relationship that matter most.
             </p>
-            <button className="btn bg-[#244D3F] text-white">Add a Friend</button>
+            <button className="btn bg-[#244D3F] text-white"><FaPlus /> Add a Friend</button>
           </div>
         </div>
       </div>

@@ -1,5 +1,8 @@
 import React from 'react';
 import friends from '../../../../public/data.json';
+import { FaBellSlash } from 'react-icons/fa6';
+import { MdOutlineDeleteForever } from 'react-icons/md';
+import { FaArchive } from 'react-icons/fa';
 
 const FriendsDetailPage = async ({ params }) => {
   const { friendId } = await params;
@@ -8,7 +11,7 @@ const FriendsDetailPage = async ({ params }) => {
   // const res = await fetch('http://localhost:3000/data.json');
   // const friends = await res.json();
   const expectedFriend = friends.find(friend => friend.id == friendId);
-  console.log(expectedFriend);
+  // console.log(expectedFriend);
   //
   return (
     <div className="flex gap-5 mt-10 max-w-6xl mx-auto">
@@ -39,9 +42,17 @@ const FriendsDetailPage = async ({ params }) => {
           </div>
         </div>
         <div className="space-y-4">
-          <button className="btn btn-ghost w-full shadow">Snoze 2 Weeks</button>
-          <button className="btn btn-ghost w-full shadow">Archive</button>
+          <button className="btn btn-ghost w-full shadow">
+            <FaBellSlash className="text-xl" /> Snoze 2 Weeks
+          </button>
+          <button className="btn btn-ghost w-full shadow">
+            {' '}
+            <FaArchive className="text-xl" />
+            Archive
+          </button>
           <button className="btn btn-ghost w-full shadow text-red-500">
+            {' '}
+            <MdOutlineDeleteForever className="text-xl" />
             Delete
           </button>
         </div>
