@@ -5,7 +5,7 @@ import { FaPlus } from 'react-icons/fa';
 export default function Home() {
   return (
     <div className='bg-base-200'>
-      <div className="hero mt-20 mb-10 max-w-6xl mx-auto p-2 text-black">
+      <div className="hero py-10 max-w-6xl mx-auto p-2 text-black">
         <div className="hero-content text-center">
           <div className="max-w-">
             <h1 className="text-6xl font-bold">
@@ -21,23 +21,23 @@ export default function Home() {
       </div>
 
       {/*  Stats */}
-      <div className="stats shadow flex max-w-6xl mx-auto text-center text-[#244D3F] gap-5 mb-10">
-        <div className="stat border-none bg-base-100 rounded-2xl py-8 px-4 shadow-xl">
+      <div className="stats shadow flex max-w-6xl mx-auto text-center text-[#244D3F] gap-5 py-10 mb-10">
+        <div className="stat border-none bg-base-100 rounded-2xl py-8 px-4 shadow-lg">
           <div className="stat-value">10</div>
           <div className="stat-title text-sm">Total Friends</div>
         </div>
 
-        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-xl">
+        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-lg">
           <div className="stat-value">3</div>
           <div className="stat-title text-sm">On Track</div>
         </div>
 
-        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-xl">
+        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-lg">
           <div className="stat-value">6</div>
           <div className="stat-title text-sm">Need Attention</div>
         </div>
 
-        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-xl">
+        <div className="stat  border-none bg-base-100 rounded-2xl py-8 px-4 shadow-lg">
           <div className="stat-value">12</div>
           <div className="stat-title text-sm">Interactions This Month</div>
         </div>
