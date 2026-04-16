@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/*  Stats */}
-      <div className="stats shadow flex max-w-6xl mx-auto text-center text-[#244D3F] gap-5 py-10 mb-10">
+      <div className="stats shadow flex flex-col lg:flex-row md:flex-row max-w-6xl mx-auto text-center text-[#244D3F] gap-5 py-10 mb-10">
         <div className="stat border-none bg-base-100 rounded-2xl py-8 px-4 shadow-lg">
           <div className="stat-value">10</div>
           <div className="stat-title text-sm">Total Friends</div>

@@ -6,14 +6,13 @@ const Footer = () => {
     <footer className="bg-[#244D3F] text-primary-content p-10">
       <div className="max-w-6xl mx-auto footer footer-horizontal footer-center mb-8 border-b">
         <aside>
-          <p className="text-6xl font-bold p-2">
+          <p className="text-5xl lg:text-6xl font-bold p-2">
             Keen<span className="font-semibold">Keeper</span>
           </p>
           <p>
             You personal shelf of meaningful connection. Browse, tend, and
             nature the relationships that matter most.
           </p>
-          {/* <p>Copyright © {new Date().getFullYear()} - All right reserved</p> */}
         </aside>
         <nav className="mb-8">
           <p className="font-semibold text-sm">Social Links</p>
